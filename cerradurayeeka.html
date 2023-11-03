@@ -62,7 +62,11 @@
 </header>
 <hr>
 <body>
-  <iframe class="boton" src="https://docs.google.com/viewer?srcid=1HMegFxFkqJMqcLLpvCEPTWfvOYv65ovT&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="98%" height="680px"></iframe>
+   <button class="boton" onclick="mostrarDocumento('miIframe1')">Cerradura</button>
+  <button class="boton" onclick="mostrarDocumento('miIframe2')">Software</button>
+ 
+  <iframe class="boton" id="miIframe1" src="https://docs.google.com/viewer?srcid=1HMegFxFkqJMqcLLpvCEPTWfvOYv65ovT&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="98%" height="680" style="display:none"></iframe>
+  <iframe class="boton" id="miIframe2" src="https://docs.google.com/viewer?srcid=1194CwZ45o-7_0AYHzWOWMpNfa4ADg-OH&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="98%" height="680" style="display:none"></iframe>
 
 </body>
 
