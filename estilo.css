@@ -43,7 +43,7 @@
   background-color:#083fa3;
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 73%;
   height: 100%;
   align-items: left;
   justify-content: flex-start;
@@ -193,11 +193,12 @@
   .submenu {
     position: absolute;
     top: 0%;
-    left: 0;
-    min-width: 76%;
+    left: 20;
+    min-width: 70%;
     margin-left: 60px;
     padding: 0;
-  }
+    font-weight: 300;
+    font-size: 15px;  }
 
   .submenu a {
     padding: 12px 16px;
